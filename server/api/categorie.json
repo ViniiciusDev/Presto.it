@@ -1,0 +1,10 @@
+[
+     {"name": "Auto", "icon": "bi", "icon2": "bi-car-front", "announcementsCount": 1},
+     {"name": "Elettronica", "icon": "bi","icon2": "bi-controller", "announcementsCount": 564},
+     {"name": "Moto", "icon": "bi", "icon2": "bi-bicycle","announcementsCount": 230},
+     {"name": "Abbigliamento", "icon": "bi", "icon2": "bi-bucket","announcementsCount": 321},
+     {"name": "Sport", "icon": "bi", "icon2": "bi-airplane","announcementsCount": 90},
+     {"name": "Giardinaggio", "icon": "bi", "icon2": "bi-tree","announcementsCount": 50},
+     {"name": "Casa", "icon": "bi", "icon2": "bi-house","announcementsCount": 134},
+     {"name": "Cucina", "icon": "bi", "icon2": "bi-egg","announcementsCount": 176}
+ ]
