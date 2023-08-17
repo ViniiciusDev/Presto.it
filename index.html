@@ -27,13 +27,13 @@
                  </button>
                  <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll align-items-center" style="--bs-scroll-height: 600px;">
-                     <li class="nav-item px-3">
+                     <li class="nav-item px-1">
                        <a class="nav-link text-secondary" aria-current="page" href="#">Home</a>
                      </li>
-                     <li class="nav-item px-3">
+                     <li class="nav-item px-1">
                        <a class="nav-link text-secondary" href="#">Annunci</a>
                      </li>
-                     <li class="nav-item px-3">
+                     <li class="nav-item px-1">
                          <button type="button" class="btn btn-success">Contataci</button>
                      </li>
                    </ul>
@@ -44,15 +44,42 @@
      <!-- Header Fine -->
      <!-- Main Container Inizio -->
      <main>
-          <!-- Section Inizio Carousel -->
 
-          <!-- Section Fine Carousel -->
+    <!-- Section Inizio Carousel -->
+    <div class="container mt-5 ">
+      <div class="row">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/public/img/bicicleta.jpg" class="d-block img-size rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/public/img/xbox.webp" class="d-block img-size rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="public/img/pexels-photo-1050244.jpeg" class="d-block img-size rounded" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+          
+    <!-- Section Fine Carousel -->
+
 		<!-- Section Inizio Cards -->
 		<section class="container my-5 py-5 bg-white">
 			<div class="row">
 				<div class="col-12">
 					<h2 class="display-5 text-center">Le nostre <span class="title fw-bold">Categorie</span></h2>
-					<p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio autem pariatur nam eligendi ab aperiam, rerum earum quis unde natus ex temporibus maxime nemo labore animi soluta a eos.</p>
+					<p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugiat quidem cumque praesentium aspernatur cum quisquam tempore saepe consequuntur a. Odio sapiente consequuntur in, cupiditate corporis quae aut temporibus labore ratione maiores illo similique perspiciatis at! Non doloremque, adipisci architecto cupiditate ex repudiandae sint alias iusto? Esse voluptates quo asperiores!</p>
 				</div>
 			</div>
       <div class="row" id="categoryContainer">
@@ -90,16 +117,25 @@
               <label for="floatingTextarea2">Inserisci una breve presentazione</label>
             </div>
             <div class="d-flex justify-content-center">
-              <button type="button" class="btn btn_background mt-4">Invia la tua candidatura</button>
+              <button type="button" class="btn btn-background mt-4">Invia la tua candidatura</button>
             </div>
           </div>
         </div>
       </form>
-
-    
     <!-- Fine Form -->
     </main>
      <!-- Main Container Fine -->
+     
+     <!-- Inizio Container Footer -->
+     <footer class=" m-auto">
+      <div class="mt-5 py-5 bg-body-tertiary shadow-lg">
+        <div class="d-flex justify-content-center m-0 footer-color">
+          © 2023 Copyright & all rights reserved
+      </div>
+      </div>
+     </footer>
+     <!-- Fine Container Footer -->
+
      <!-- Bootstrap Js -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
      <script src="./public/js/index.js"></script>

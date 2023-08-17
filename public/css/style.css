@@ -69,6 +69,22 @@ body    {
     height: 500px;
 }
 
-.btn_background {
+.img-size   {
+    width: 100%;
+    height: calc(100vh - 72px);
+}
+
+.btn-background {
     background-color: var(--primary-color);
+    color: var(--pastello);
+}
+
+.btn-background:hover {
+    background-color: var(--primary-color);
+    color: var(--pastello);
+}
+
+.footer-color   {
+    font-size: 14px;
+    color: var(--neutral);
 }

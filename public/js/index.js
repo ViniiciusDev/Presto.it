@@ -16,7 +16,7 @@ downloadcategories("../../server/api/categorie.json");
 let categoryContainer = document.getElementById("categoryContainer");
 
 function createDom(elements) {
-    console.log(elements);
+    
 
     let cardContainer = document.createElement("div");
     cardContainer.classList.add("col-12", "col-md-6", "col-lg-4", "col-xl-3");
@@ -42,9 +42,15 @@ function createDom(elements) {
     announceTitle.textContent = elements.name;
     cardBody.appendChild(announceTitle);
 
-    let announceText = document.createElement("p");
-    announceText.classList.add(elements.announcementsCount);
-    cardBody.appendChild(announceText);
+    let announceCounter = document.createElement("p");
+    let announceCounterText = `${elements.announcementsCount} Annunci`;
+    if(elements.announcementsCount == 1)  {
+      announceCounterText = `${elements.announcementsCount} Annuncio`;
+    }
+    announceCounter.textContent = announceCounterText;
+    cardBody.appendChild(announceCounter);
+
+    return cardBody;
 }
 
 
